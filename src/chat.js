@@ -8,7 +8,7 @@ function Chat() {
 
   // Fetch previous messages from the database on component mount
   useEffect(() => {
-    axios.get('http://localhost:5000/messages')  // Updated to match backend route
+    axios.get('https://chatbot-wc64.onrender.com/messages')  // Updated to match backend route
       .then(response => {
         setMessages(response.data);
       })
@@ -53,7 +53,7 @@ function Chat() {
       }
 
       // Send both user and bot messages to the backend
-      await axios.post('http://localhost:5000/messages', {  // Updated to match backend route
+      await axios.post('https://chatbot-wc64.onrender.com/messages', {  // Updated to match backend route
         user_message: newMessage,
         bot_response: botResponse
       });

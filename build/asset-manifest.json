@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/omka-shinde/chatboat/static/css/main.6ce1bc3f.css",
+    "main.js": "/omka-shinde/chatboat/static/js/main.2d7135da.js",
+    "static/js/373.97ffcfb9.chunk.js": "/omka-shinde/chatboat/static/js/373.97ffcfb9.chunk.js",
+    "index.html": "/omka-shinde/chatboat/index.html",
+    "main.6ce1bc3f.css.map": "/omka-shinde/chatboat/static/css/main.6ce1bc3f.css.map",
+    "main.2d7135da.js.map": "/omka-shinde/chatboat/static/js/main.2d7135da.js.map",
+    "373.97ffcfb9.chunk.js.map": "/omka-shinde/chatboat/static/js/373.97ffcfb9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ce1bc3f.css",
+    "static/js/main.2d7135da.js"
+  ]
+}
